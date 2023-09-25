@@ -11,7 +11,7 @@ branca==0.6.0
 brotlipy==0.7.0
 cachetools==5.3.1
 
-docstring-to-markdown @ file:///C:/b/abs_cf10j8nr4q/croot/docstring-to-markdown_1673447652942/work
+
 
 folium==0.14.0
 gitdb==4.0.10
