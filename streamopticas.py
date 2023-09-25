@@ -120,19 +120,13 @@ with tab1:
 
 
    st.markdown(texto_largo1)
-   def main():
-       st.title("Datasheet y Caracteristicas")
-
-
-       if st.button("Ir a la pagina"):
-     
-           url1 = "https://www.alibaba.com/product-detail/New-And-Original-Huawei-Smartax-Ma5608t_1600860738533.html?spm=a2700.7735675.0.0.387e5nSt5nStIt&s=p"
-        
-      
-           webbrowser.open(url1)
-
-   if __name__ == "__main__":
-       main()
+   datasheet1 = 'https://www.alibaba.com/product-detail/New-And-Original-Huawei-Smartax-Ma5608t_1600860738533.html?spm=a2700.7735675.0.0.387e5nSt5nStIt&s=p'
+   
+   st.subheader("Datasheet y Caracteristicas")
+   
+   if st.button('Ir a la Página 1'):
+       
+       st.markdown(f'[Huawei MA5608T-24]({datasheet1})')
 
    
    
